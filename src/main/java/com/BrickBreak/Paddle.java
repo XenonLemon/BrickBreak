@@ -76,10 +76,10 @@ public class Paddle {
 		this.xVelocity += addVelocity;
 	}
 
-	//
-	//
+	//Precondition: There must be values for both the x value and the xVelocity value.
+	//Postcondition: The paddle will then start to move based off of the xVelocity.
 	public void move(){
-		
+		x += xVelocity;
 	}
 
 

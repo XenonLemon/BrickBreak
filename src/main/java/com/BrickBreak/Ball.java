@@ -79,10 +79,11 @@ public class Ball {
 		yVelocity *= -1;
 	}
 
-	//
-	//
+	//Precondition: There must be values for  the x value, y value, xVelocity, and the yVelocity value.
+	//Postcondition: The ball will then start to move based off of the xVelocity and yVelocity.
 	public void move(){
-		
+		x += xVelocity;
+		y += yVelocity;
 	}
 
 
