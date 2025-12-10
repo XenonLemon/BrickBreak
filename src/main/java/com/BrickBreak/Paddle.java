@@ -4,7 +4,6 @@
 
 package com.BrickBreak;
 
-import java.awt.Graphics;
 import java.awt.*;
 
 public class Paddle {
@@ -71,9 +70,18 @@ public class Paddle {
 		this.xVelocity = xVelocity;
 	}
 
+	//Precondition: There must be a value for the xVelocity variable, and a value for the addVelocity variable. 
+	//Postcondition: The addVelcoity value will be added to xVelocity, thus either speeding up the paddle or slowing it down.
 	public void addVelocity(int addVelocity){
 		this.xVelocity += addVelocity;
 	}
+
+	//
+	//
+	public void move(){
+		
+	}
+
 
 
 
